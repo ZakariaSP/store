@@ -1,0 +1,1267 @@
+
+
+header{
+    width: 100%;
+    height: 100px;
+    background:white;
+    direction: rtl;
+    float: left;
+    
+}
+
+
+
+
+
+
+#buy{
+    font-size: 20px;
+    font-family: 'Tajawal', sans-serif;
+    color: rgb(53, 52, 52);
+    margin-right: 20px;
+    position: relative;
+    bottom: 10px;
+    right: 10%;
+    background:rgb(137, 233, 113);
+    border: none;
+    border-radius: 12px;
+    padding: 6px 12px;
+    outline: none;
+}
+#buy:hover{
+    color: white;
+    background:rgb(48, 48, 48);
+    outline: none;
+    box-shadow: 0 6px 12px 0 rgb(137, 233, 113);
+}
+
+.txt{
+    font-size: 30px;
+    color:rgb(48, 48, 48);
+    padding:0px 32px ;
+    font-family: 'Tajawal', sans-serif;
+    position: relative;
+    bottom: 10px;
+}
+.txt:hover{
+    background:  rgb(137, 233, 113);
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.line{
+    
+    font-family: 'Tajawal', sans-serif;
+    font-size: 24px;
+    
+    text-align: center;
+}
+.line:hover{
+    background-color: white;
+    text-align: center;
+}
+
+#NavBar{
+    background-color:rgb(137, 233, 113);
+    width: 200px;
+    height: 240px;
+    border: 2px solid  rgb(48, 48, 48);
+    border-radius: 8px;
+    text-align: center;
+    transform: translate(-145%,-1.65%);
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+
+
+
+#materials:hover #NavBar{
+    display:block;
+}
+
+
+.shoop{
+    position: relative;
+    left: -560px;
+    width: 50px;
+    height: 50px;
+    
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.shoop:hover{
+    width: 45px;
+    height: 45px;  
+}
+
+main{
+    width: 100%;
+    height: 2000px;
+    
+}
+
+#sec1{
+    width: 100%;
+    height: 400px;
+    background: salmon;
+    float: right;
+    
+}
+
+#title{
+    font-size: 50px;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    padding-top: 50px; 
+    width: 100%;
+    height: 400px;
+   background-image: url('backgrounds/shop4.jpg');
+   background-repeat: no-repeat;
+   background-size:100% 400px;
+}
+
+
+
+#sec2{
+    width: 100%;
+    height: 400px;
+    background:black;
+    float: left;  
+}
+
+.imge{
+    width:98%;
+    height: 340px;
+    
+} 
+.imge:hover{
+    
+    object-fit: scale-down;
+    cursor: pointer;
+    
+}  
+
+.name{
+    
+    transform: translateY(-48%);
+    background: lightgray;
+    width:98%;
+    height: 49px;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    font-size: 20px;
+    line-height: 49px;
+    /*font-family: 'Tajawal', sans-serif;*/
+    font-family: 'Aref Ruqaa', serif;
+    
+}
+.name:hover{
+    box-shadow: 0 2px 6px 0 rgb(137, 233, 113);
+    cursor: pointer;
+    background: white;
+}
+
+#content{
+    display: flex;
+    transform: translate(0.2%,1%);
+}
+.elt{
+ flex-grow: 1;
+ 
+}
+
+
+#sec3{
+    width: 100%;
+    height: 400px; 
+    background: black;
+    float: right;  
+}
+
+
+
+#sec4{
+    width: 100%;
+    height: 400px;
+    background:black;
+    float:right;
+}
+
+#sec5{
+    width: 100%;
+    height: 400px;
+    background:black;
+    float: left;
+    
+}
+
+#sec6{
+    width: 100%;
+    height: 400px;
+    background: grey;
+    float:right;
+    display: flex;
+}
+.h1{
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-bottom:8px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    font-weight:600;
+}
+
+video{
+    margin-top: 20px;
+    margin-left:120px ;
+    direction: ltr;
+    width: 42%;
+    height: 200px;
+    box-shadow: 0 4px 16px 0 rgb(137, 233, 113);
+    outline: none;
+}
+
+.h2{
+    margin-top: 20px;
+    margin-right: 26px;
+    margin-bottom:8px;
+    transform: translateX(-7%);
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    font-weight:600;
+}
+
+.write{
+    
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 80px;
+    border-radius: 12px;
+    color: rgb(53, 52, 52);
+    border: 1px solid grey;
+    background: lightgray;
+    font-size: 16px;
+    padding-right: 16px;
+    font-family: 'Tajawal', sans-serif;
+    outline: none;
+   
+}
+.write:hover{
+    box-shadow: 0 1px 6px 0 rgb(137, 233, 113);
+    border-color: rgba(223,225,229,0);
+    background: whitesmoke;
+    outline: none;
+    
+}
+
+#area{
+    width:400px ;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 80px;
+    border-radius: 12px;
+    border: 1px solid grey;
+    background: lightgray;
+    font-size: 16px;
+    padding-right: 16px;
+    font-family: 'Tajawal', sans-serif;
+    color: grey;
+    outline: none;
+}
+
+#area:hover{
+    box-shadow: 0 1px 6px 0 rgb(137, 233, 113);
+    border-color: rgba(223,225,229,0);
+    background: whitesmoke;
+    outline: none;
+}
+
+.register{
+    color: rgb(53, 52, 52);
+    width:80px ;
+    height: 30px;
+    margin-top: 2px;
+    margin-right: 90px;
+    border-radius: 8px;
+    background: rgb(137, 233, 113);
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Tajawal', sans-serif;
+    outline: none;
+}
+
+.register:hover{
+    color: white;
+    background:rgb(48, 48, 48);
+    outline: none;
+    box-shadow: 0 1px 6px 0 rgb(137, 233, 113);
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background: white;
+    direction: rtl;
+    float: left;
+    
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background: lightgray;
+    float:left;
+}
+
+#contact{
+    direction: rtl;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    color: rgb(139, 139, 139);
+    float: right;
+    padding-right: 300px;
+}
+
+
+.icon{
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+    float: left;
+}
+.icon:hover{
+   transform: scale(1.2,1.2);
+   
+}
+#logo{
+    padding-left: 300px;
+}
+
+@media only screen and (min-width:1768px) and (max-width:2660px){
+    .shoop{
+        transform: translateX(-140px);
+    }
+    #buy{
+        transform: translateX(-400px); 
+    }
+    .h1{margin-left: 700px;}
+    video{
+        width: 36%;
+    height: 280px;
+    transform: translateX(100%); 
+    }
+    
+    
+}
+
+@media only screen  and (max-width:1840px){
+    .h1{margin-left: 200px;}
+    video{
+        width: 34%;
+    height: 240px;
+    transform: translateX(10%); 
+    }   
+}
+@media only screen  and (max-width:1600px){
+    .h1{margin-left: 200px;}
+    video{
+        width: 44%;
+    height: 240px;
+    transform: translateX(10%); 
+    }   
+}
+
+@media only screen  and (max-width:1370px){
+    
+   .shoop{
+       transform: translateX(50%);
+   }
+   .icon{
+    width: 50px;
+    height: 50px;
+    padding:24px;
+
+}
+#contact{
+    padding-right: 280px; 
+}
+#logo{
+    padding-left: 280px;
+}
+
+
+}
+
+@media only screen  and (max-width:1326px){
+    
+    .shoop{
+        transform: translateX(100%);
+    }
+    video{
+        width: 42%;
+    height: 190px;
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+        padding:24px 18px;
+    
+    }
+    #contact{
+        padding-right: 250px; 
+    }
+    #logo{
+        padding-left: 250px;
+    }
+ 
+ }
+ @media only screen  and (max-width:1300px){
+    video{
+        width: 42%;
+    height: 180px;
+    }
+    
+    .shoop{
+        transform: translateX(200%);
+    }
+    .shoop:hover{
+        width: 48px;
+        height: 48px;
+        
+        
+    }
+    
+    #contact{
+        padding-right: 250px; 
+    }
+    #logo{
+        padding-left: 250px;
+    }
+ }
+
+ @media only screen  and (max-width:1280px)
+ {
+    .write,#area,.register{margin-left: 100px;}
+    
+    
+    .shoop{
+        transform: translateX(300%);
+    }
+    .shoop:hover{
+        width: 48px;
+        height: 48px;
+        
+        
+    }
+    video{
+        margin-left:140px ;
+        width: 50%;
+    height: 175px;
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+        padding:24px 14px;
+    
+    }
+    #contact{
+        padding-right: 200px; 
+    }
+    #logo{
+        padding-left: 200px;
+    }
+ }
+@media only screen and (max-width:1200px){
+   
+    video{
+        
+        width: 50%;
+    height: 165px;
+    }
+    .write,#area,.register{margin-left: 30px;}
+    
+    .shoop{
+        transform: translateX(500%);
+    }
+
+    .shoop:hover{
+        width: 49.5px;
+        height: 49.5px;
+        
+        
+    }
+   
+    
+}
+
+@media only screen and (max-width:1120px){
+   
+    .shoop{
+        transform: translateX(600%);
+    }
+    video{
+        
+        width: 50%;
+    height: 145px;
+    }
+    .h1{margin-left: 150px;}
+    .icon{
+        width: 50px;
+        height: 50px;
+        padding:24px 10px;
+    
+    }
+    #contact{
+        padding-right: 170px; 
+    }
+    #logo{
+        padding-left: 170px;
+    }
+}
+
+@media only screen and (max-width:1050px){
+    .shoop{
+        transform: translateX(700%);
+    }
+    video{
+        
+        width: 50%;
+    height: 135px;
+    }
+    .h1{margin-left: 130px;}
+    .icon{
+        width: 50px;
+        height: 50px;
+        padding:24px 8px;
+    
+    }
+    #contact{
+        padding-right: 150px; 
+    }
+    #logo{
+        padding-left: 150px;
+    }
+    
+}
+
+@media only screen and (max-width:1000px){
+    .shoop{
+        transform: translateX(890%);
+        
+    }
+    
+    .h1{margin-left: 80px;}
+
+    
+    video{
+        margin-left: 80px;
+        width: 57%;
+    }
+    .h2{margin-right: 5px;}
+    .write,#area,.register{margin-right: 20px;}
+    #buy{
+        
+        margin-right: 15px;
+        position: relative;
+        right: 6%;
+        
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+        padding:24px 6px;
+    
+    }
+    #contact{
+        padding-right: 120px; 
+    }
+    #logo{
+        padding-left: 120px;
+    }
+    
+}
+
+@media only screen and (max-width:900px)
+{
+    .shoop{
+        transform: translateX(1100%);
+        width: 45px;
+        height: 45px;   
+    }
+    .shoop:hover{
+        width: 45px;
+        height: 45px;  
+    }
+    .txt{font-size: 24px;}
+    #buy{
+        font-size: 16px;
+        padding: 6px 12px;
+        margin-right: 15px;
+        position: relative;
+        right: 4%;
+        
+    }
+    #NavBar{
+        
+        width: 150px;
+        height: 190px;
+        transform: translate(-180%,-2.2%);
+    }
+   
+    .line{
+        font-size: 18px;
+    }
+    
+    .h1,.h2{font-size: 18px;}
+    .h1{margin-left: 40px;}
+    .h2{margin-right: 0px;}
+    video{
+        margin-left: 30px;
+        width: 80%;
+        height: 160px;
+    }
+    .icon{
+        width: 48px;
+        height: 48px;
+        padding:24px 6px;
+    
+    }
+    #contact{
+        padding-right: 100px;
+        font-size:26px ; 
+    }
+    #logo{
+        padding-left: 100px;
+    }
+    
+}
+
+@media only screen and (max-width:800px)
+{
+    .shoop{
+        transform: translateX(1250%);
+        width: 40px;
+        height: 40px;   
+    }
+    .shoop:hover{
+        width: 40px;
+        height: 40px;  
+    }
+    .txt{font-size: 20px;}
+    #buy{
+        font-size: 12px;
+        padding: 6px 12px;
+        margin-right: 15px;
+        position: relative;
+        right: 2%;
+        
+    }
+    #NavBar{
+        
+        width: 110px;
+        height: 140px;
+        transform: translate(-230%,-2.2%);
+    }
+   
+    .line{
+        font-size: 14px;
+    }
+    #title{
+        font-size: 40px;
+    }
+    .write {
+        width: 300px;
+        height: 30px;
+        font-size: 14px;
+    }
+    #area {
+        width: 300px;
+        font-size: 14px;
+    }
+        
+    
+    .h1,.h2{font-size: 14px;}
+    .h1{margin-left: 50px;}
+    video{
+        margin-left: 30px;
+        width: 70%;
+        height: 150px;
+    }
+    .icon:hover{
+        transform: scale(1.1,1.1);
+        
+     }
+     .icon{
+        width: 45px;
+        height: 45px;
+        padding:24px 6px;
+    
+    }
+    #contact{
+        padding-right: 80px;
+        line-height: 50px;
+        font-size:22px ; 
+    }
+    #logo{
+        padding-left: 80px;
+        margin-top: 10px;
+    }
+    
+}
+
+@media only screen and (max-width:700px)
+{
+    .shoop{
+        transform: translateX(1530%);
+        width: 35px;
+        height: 35px;   
+    }
+    .shoop:hover{
+        width: 35px;
+        height: 35px;  
+    }
+    .txt{font-size: 16px;}
+    #buy{
+        font-size: 10px;
+        padding: 6px 12px;
+        margin-right: 15px;
+        position: relative;
+        right: 1%;
+        
+    }
+    #NavBar{
+        
+        width: 90px;
+        height: 120px;
+        transform: translate(-260%,-2%);
+    }
+   
+    .line{
+        font-size: 12px;
+    }
+    #title{
+        font-size: 36px;
+    }
+    #sec2,#sec3,#sec4,#sec5{
+        height: 356px;
+    }
+    .imge{
+        width:98%;
+        height: 300px;
+    } 
+    .name{
+        
+        
+        height: 49px;
+        line-height: 40px;
+        font-size: 16px;
+        
+       
+    }
+    .write {
+        width: 260px;
+        height: 26px;
+        font-size: 12px;
+    }
+    #area {
+        width: 260px;
+        font-size: 12px;
+    }
+
+    .register{
+        font-size: 12px;
+        
+    }
+        
+    .h1,.h2{font-size: 12px;}
+    .h1{margin-left: 50px;}
+    video{
+        margin-left: 18px;
+        width: 90%;
+        height: 160px;
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+        padding:24px 6px;
+    
+    }
+    #contact{
+        padding-right: 60px;
+        line-height: 46px;
+        font-size:18px ; 
+    }
+    #logo{
+        padding-left: 60px;
+        margin-top: 5px;
+    }
+    .icon:hover{
+        transform: scale(1.1,1.1);
+        
+     }
+    
+}
+
+
+
+
+@media only screen and (max-width:600px)
+{
+    .shoop{
+        transform: translateX(2200%);
+        width: 26px;
+        height: 26px; 
+        margin-right: 16px;  
+    }
+    .shoop:hover{
+        width: 26px;
+        height: 26px;  
+    }
+    .txt{font-size: 12px;
+    }
+    #buy{
+        font-size: 6px;
+        padding: 6px 12px;
+        margin-right: 10px;
+        position: relative;
+        right: 0.25%;
+        
+        
+    }
+    #NavBar{
+        
+        width: 70px;
+        height: 90px;
+        transform: translate(-300%,-2.2%);
+    }
+   
+    .line{
+        font-size: 8px;
+    }
+    #title{
+        font-size: 30px;
+    }
+    #sec2,#sec3,#sec4,#sec5{
+        height: 300px;
+    }
+    .imge{
+        width:98%;
+        height: 250px;
+    } 
+    .name{
+        
+        
+        height: 30px;
+        line-height: 30px;
+        font-size: 10px;
+        
+       
+    }
+    .write {
+        width: 200px;
+        height: 18px;
+        font-size: 8px;
+    }
+    #area {
+        width: 200px;
+        font-size: 8px;
+    }
+
+    .register{
+        
+        width:70px ;
+        height: 18px;
+        font-size: 10px;
+        
+    }
+
+    .h1,.h2{font-size: 8px;}
+    .h1{margin-left: 70px;}
+    .h2{margin-right:6px;}
+    video{
+        margin-left: 18px;
+        width: 80%;
+        height: 140px;
+    }
+    .icon{
+        width: 36px;
+        height: 36px;
+        padding:24px 6px;
+    
+    }
+    #contact{
+        padding-right: 40px;
+        line-height: 50px;
+        font-size:16px ; 
+    }
+    #logo{
+        padding-left: 40px;
+        margin-top: 3px;
+    }
+    .icon:hover{
+        transform: scale(1.1,1.1);
+        
+     }
+    
+}
+
+@media only screen and (max-width:500px)
+{
+    header{
+        display:flex;   
+     }
+     .txt{
+         padding-top: 15px;
+         transform: translateX(-60%);
+     } 
+     .txt:hover{
+        background: none;
+   }  
+     .shoop{
+         margin-top:24px ;
+         position: relative;
+         left: -340px;
+
+     }
+    
+    #buy{
+        font-size: 4px;
+        padding: 3px 6px;
+        margin-right: -26px;
+        position: relative;
+        right: 100%;
+        margin-top: 60px;
+         transform: translateX(380%);
+        
+    }
+    #NavBar{
+        
+        width: 70px;
+        height: 90px;
+        transform: translate(26%,-2.2%);
+    }
+   
+    .line{
+        font-size: 8px;
+    }
+    #title{
+        font-size: 26px;
+    }
+    #sec1,sec6{
+        height: 300px;
+    }
+    .write {
+        width: 160px;
+        height: 14px;
+        font-size: 8px;
+    }
+    #area {
+        width: 160px;
+        font-size: 8px;
+    }
+
+    .register{
+        
+        width:60px ;
+        height: 15px;
+        font-size: 10px;
+        
+    }
+
+    .h1,.h2{font-size: 8px;}
+    .h1{margin-left: 40px;}
+    .h2{margin-right:6px;}
+    video{
+        margin-left: 18px;
+        width: 70%;
+        height: 100px;
+    }
+
+
+    .icon{
+        width: 30px;
+        height: 30px;
+        padding:24px 6px;
+    
+    }
+    #contact{
+        padding-right: 40px;
+        line-height: 50px;
+        font-size:12px ; 
+    }
+    #logo{
+        padding-left: 40px;
+        margin-top: 3px;
+    }
+    .icon:hover{
+        transform: scale(1.1,1.1);
+        
+     }
+    
+    
+}
+
+@media only screen and (max-width:400px)
+{    
+    header{
+        
+        height: 80px;
+        
+        
+    }
+    
+    
+     .txt{
+         
+         padding-top: 15px;
+         transform: translateX(-40%);
+         padding-right: 10px;
+     } 
+     .txt:hover{
+          background: none;
+     }  
+     .shoop{
+         margin-top:24px ;
+         position: relative;
+         left: -380px;
+
+     }
+    
+    #buy{
+        font-size: 4px;
+        padding: 3px 6px;
+        margin-right: -26px;
+        position: relative;
+        right: 100%;
+        margin-top: 60px;
+         transform: translateX(280%);
+        
+    }
+    #NavBar{
+        
+        width: 60px;
+        height: 80px;
+        transform: translate(20%,-2.2%);
+    }
+   
+    .line{
+        font-size: 8px;
+    }
+    #title{
+        font-size: 20px;
+    }
+    .imge{
+        width:98%;
+        height: 220px;
+    } 
+    .name{
+        
+        
+        height: 26px;
+        line-height: 26px;
+        font-size: 8px;
+        
+       
+    }
+    main{
+        
+        height: 1560px;
+        
+    }
+    #sec1,#sec2,#sec3,#sec4,#sec5,#sec6{
+        height: 260px;
+    }
+    .write {
+        margin-top: 4px;
+        width: 130px;
+        height: 12px;
+        font-size: 6px;
+    }
+    #area {
+        margin-top: 4px;
+        width: 130px;
+        font-size: 6px;
+    }
+
+    .register{
+        margin-top: 4px;
+        width:50px ;
+        height: 12px;
+        font-size: 8px;
+        
+    }
+
+    .h1,.h2{font-size: 6px;
+    margin-top: 10px;}
+    .h1{margin-left: 14px;}
+    .h2{margin-right:6px;}
+    video{
+        margin-top: 10px;
+        margin-left: 12px;
+        width: 86%;
+        height: 76px;
+    }
+
+
+    .icon{
+        width: 24px;
+        height: 24px;
+        padding:24px 2px;
+    
+    }
+    #contact{
+        padding-right: 30px;
+        line-height: 50px;
+        font-size:10px ; 
+    }
+    #logo{
+        padding-left: 30px;
+        margin-top: 3px;
+    }
+    .icon:hover{
+        transform: scale(1.1,1.1);
+        
+     }
+     footer{
+        
+        height: 80px;
+       
+    }
+    
+}
+
+@media only screen and (max-width:300px)
+{    
+    header{
+        
+        height: 60px;
+        
+        
+    }
+    
+    
+     .txt{
+         
+         padding-top: 15px;
+         transform: translateX(-40%);
+         padding-right: 10px;
+     } 
+     .txt:hover{
+          background: none;
+     }  
+     .shoop{
+         margin-top:12px ;
+         position: relative;
+         left: -380px;
+
+     }
+    
+    #buy{
+        font-size: 4px;
+        padding: 3px 6px;
+        margin-right: -26px;
+        position: relative;
+        right: 100%;
+        margin-top: 44px;
+         transform: translateX(280%);
+        
+    }
+    #NavBar{
+        
+        width: 60px;
+        height: 80px;
+        transform: translate(26%,-2.2%);
+    }
+   
+    .line{
+        font-size: 8px;
+    }
+    #title{
+        font-size: 18px;
+    }
+    .imge{
+        width:98%;
+        height: 190px;
+    } 
+    .name{
+        
+        
+        height: 20px;
+        line-height: 20px;
+        font-size: 6px;
+        
+       
+    }
+    main{
+        
+        height: 1320px;
+        
+    }
+    #sec1,#sec2,#sec3,#sec4,#sec5,#sec6{
+        height: 220px;
+    }
+    .write {
+        margin-top: 2px;
+        width: 100px;
+        height: 10px;
+        font-size: 4px;
+    }
+    #area {
+        margin-top: 2px;
+        width: 100px;
+        font-size: 4px;
+        height: 60px;
+    }
+
+    .register{
+        margin-top: 2px;
+        width:40px ;
+        height: 10px;
+        font-size: 6px;
+        
+    }
+
+    .h1,.h2{font-size: 6px;
+    margin-top: 10px;
+margin-bottom: 4px;}
+    .h1{margin-left: 20px;}
+    .h2{margin-right:6px;}
+    video{
+        margin-top: 10px;
+        margin-left: 8px;
+        width: 100%;
+        height: 76px;
+    }
+
+
+    .icon{
+        width: 20px;
+        height: 20px;
+        padding:24px 2px;
+    
+    }
+    #contact{
+        padding-right: 20px;
+        line-height: 50px;
+        font-size:8px ; 
+    }
+    #logo{
+        padding-left: 20px;
+        margin-top: 3px;
+    }
+    .icon:hover{
+        transform: scale(1.1,1.1);
+        
+     }
+     footer{
+        
+        height: 60px;
+       
+    }
+    
+}
